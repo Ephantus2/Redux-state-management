@@ -10,7 +10,7 @@ const Users = () => {
     }
   return (
     <div>
-        <input placeholder="username" onChange={(e) => handleChange(e)}/>
+        Enter your name here: <input placeholder="username" onChange={(e) => handleChange(e)}/>
     </div>
   )
 }
